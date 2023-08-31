@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* First Section */
+.firstSection{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9FAF8;
+}
+
+.content{
+    display: flex;
+    gap: 300px;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+#headerImage{
+    width: 1200px;
+    height: 300px;
+}
+
+/* 1st Section */
+
+/* Second Section */
+.secondSection{
+    margin: 60px;
+}
+
+.container{
+    text-align: center;
+}
+
+.secondSectionHeader{
+    padding-bottom: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info{
+    display: flex;
+    /* border: 1px solid gold; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.info img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+/* 2nd Section End*/
+
+/* Third Section */
+.thirdSection{
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+    max-width: 700px;
+}
+
+#quoteTwo{
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+/* 3rd section end */
+
+/* Fourth Section */
+.fourthSection{
+    display: flex;
+    align-items: center;
+
+}
+
+.sign-up {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-color: none;
+    width: fit-content;
+    gap: 400px;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
